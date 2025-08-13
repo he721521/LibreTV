@@ -12,6 +12,15 @@ const PASSWORD_CONFIG = {
 };
 
 // 网站信息配置
+const SITE_CONFIG = {
+    name: 'LibreTV',
+    url: 'https://libretv.is-an.org',
+    description: '免费在线视频搜索与观看平台',
+    logo: 'image/logo.png',
+    version: '1.0.3'
+};
+
+// API站点配置
 const API_SITES = {
     dyttzy: {
         api: 'http://caiji.dyttzyapi.com/api.php/provide/vod',
@@ -105,6 +114,7 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
+    
 // 定义合并方法
 function extendAPISites(newSites) {
     Object.assign(API_SITES, newSites);
