@@ -105,16 +105,6 @@ const API_SITES = {
         api: 'https://cj.lziapi.com/api.php/provide/vod/',
         name: '量子资源站'
     },
-// API站点配置
-const API_SITES = {
-    testSource: {
-        api: 'https://www.example.com/api.php/provide/vod',
-        name: '空内容测试源',
-        adult: true
-    }
-    //ARCHIVE https://telegra.ph/APIs-08-12
-};
-
 // 定义合并方法
 function extendAPISites(newSites) {
     Object.assign(API_SITES, newSites);
